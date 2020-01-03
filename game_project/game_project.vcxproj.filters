@@ -4,6 +4,9 @@
     <Filter Include="Engine">
       <UniqueIdentifier>{bf451b05-cee1-4783-a3c6-7a370550685e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameHeader">
+      <UniqueIdentifier>{c81a8901-f688-458e-a7ba-ae09d01301c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Colors.h">
@@ -32,6 +35,12 @@
     </ClInclude>
     <ClInclude Include="Engine\ImageObject.h">
       <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>GameHeader</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
